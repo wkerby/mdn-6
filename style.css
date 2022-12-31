@@ -31,3 +31,16 @@ a:visited {
 a:hover {
     text-decoration: none;
 }
+
+.container p:first-child {
+    font-size:150%;
+}
+
+.container:first-child::first-line {
+    color:red;
+}
+
+table:nth-child(odd) {
+    background-color:#333;
+    color:white;
+}
