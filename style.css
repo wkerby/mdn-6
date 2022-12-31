@@ -19,3 +19,15 @@ th {
   padding: 0.2em;
   text-align: left;
 }
+
+a {
+    color:orange;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    text-decoration: none;
+}
